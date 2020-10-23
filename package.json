@@ -1,8 +1,7 @@
 {
-    "name": "angular_hello",
+    "name": "kyduke_angular_hello",
     "version": "0.0.1",
     "description": "Hello Component",
-    "private": true,
     "directories": {
       "doc": "docs"
     },
@@ -33,7 +32,6 @@
       "@bazel/ibazel": "^0.10.3",
       "@bazel/typescript": "^0.34.0",
       "@types/node": "^13.1.2",
-      "closure-library.d.ts": "0.0.1",
       "typescript": "~3.4.5"
     },
     "dependencies": {
