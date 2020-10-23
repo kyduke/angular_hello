@@ -6,17 +6,21 @@
 // Used as part of postinstall in package.json.
 {
     "compilerOptions": {
-      "baseUrl": "./",
-      "lib": ["dom", "es2015"],
+      "lib": [
+        "dom", 
+        "es2015"
+      ],
       "experimentalDecorators": true,
       "types": [],
-      "module": "amd",
+      "module": "umd",
       "moduleResolution": "node"
     },
     "angularCompilerOptions": {
-      "enableSummariesForJit": true
+      "enableIvy": false
     },
-    "include": ["node_modules/@angular/**/*", "node_modules/@ngrx/**/*"],
+    "include": [
+      "node_modules/@angular/**/*"
+    ],
     "exclude": [
       "node_modules/@ngrx/store/migrations/**",
       "node_modules/@ngrx/store/schematics/**",
