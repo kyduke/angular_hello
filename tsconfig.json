@@ -4,14 +4,11 @@
       "emitDecoratorMetadata": true,
       "experimentalDecorators": true,
       "inlineSourceMap": true,
-      "lib": ["dom", "es2018"],
+      "lib": ["dom", "es2015"],
       "moduleResolution": "node",
       "skipLibCheck": true,
       "strict": false,
-      "baseUrl": "./",
-      "paths": {
-          "goog:*": ["./node_modules/closure-library.d.ts/index.d.ts"]
-      }
+      "baseUrl": "./"
     },
     "exclude": [
       "bazel-*"
